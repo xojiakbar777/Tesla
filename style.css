@@ -1,0 +1,718 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top: 0;
+    left: 0;
+    position: sticky;
+    gap: 40px;
+}
+
+.navbar:hover{
+    background-color: white;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style:none;
+}
+
+.vehicles,
+.energy,
+.charging,
+.discover,
+.shop{
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    background-color:white;
+    top: 60px;
+    left: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.photoes{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
+.photo{
+    width: 220px;
+    height: 120px;
+    margin-left: 30px;
+}
+
+.yozuv{
+    display: flex;
+    height: 30px;
+    width: 900px;
+}
+
+.yozuv h4{
+    margin-left: 180px;
+}
+
+.order{
+    display: flex;
+    height: 30px;
+    width: 900px;
+}
+
+.order p{
+    margin-left: 165px;
+}
+
+.yozuvlar{
+    width: 200px;
+    height: 370px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.kattasi{
+    display: flex;
+    justify-content: center;
+}
+
+
+.photoes1{
+    display: flex;
+    width: 900px;
+}
+
+.photo1{
+    width: 220px;
+    height: 120px;
+    margin-left: 60px;
+}
+
+.yozuv1{
+    display: flex;
+    height: 30px;
+    width: 900px;
+
+}
+
+.yozuv1 h4{
+    margin-left: 165px;
+}
+
+.order1{
+    display: flex;
+    height: 30px;
+    width: 900px;
+
+}
+
+.order1 p{
+    margin-left: 165px;
+}
+
+.yozuvlar1{
+    width: 200px;
+    height: 370px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.kattasi1{
+    display: flex;
+    justify-content: center;
+}
+
+.photoes2{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
+.photo2{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.yozuv2{
+    display: flex;
+    height: 30px;
+    width: 900px;
+}
+
+.yozuv2 h4{
+    margin-left: 160px;
+}
+
+.order2{
+    display: flex;
+    height: 30px;
+    width: 890px;
+}
+
+.order2 p{
+    margin-left: 160px;
+}
+
+.yozuvlar2{
+    width: 200px;
+    height: 370px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.kattasi2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.discover{
+    display: flex;
+    justify-content: center;
+}
+
+.qator2,
+.qator3{
+    margin-left: 50px;
+}
+
+.joylar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joy1 img{
+    width: 240px;
+    height: 140px;
+}
+
+.joy1{
+    text-align: center;
+}
+
+.joy2 img{
+    width: 240px;
+    height: 140px;
+}
+
+.joy2{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.joy3 img{
+    width: 240px;
+    height: 140px;
+}
+
+.joy3{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.joy4 img{
+    width: 240px;
+    height: 140px;
+}
+
+.joy4{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.uls{
+    margin-left: 300px;
+}
+
+.icon i{
+    width:40px;
+}
+
+.icons{
+    margin-left: 200px;
+}
+
+.model3{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg")no-repeat center/cover;
+}
+
+.model_3{
+    text-align: center;
+}
+
+.model3_button{
+    display: flex;
+    margin-top: 320px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 1.5s;
+}
+
+
+.modely{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png")no-repeat center/cover;
+}
+
+.model_y{
+    text-align: center;
+}
+
+.modely_button{
+    display: flex;
+    margin-top: 350px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 1.5s;
+}
+
+.modelx{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg")no-repeat center/cover;
+}
+
+.model_x{
+    text-align: center;
+}
+
+.modelx_button{
+    display: flex;
+    margin-top: 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 1.5s;
+}
+
+.models{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg")no-repeat center/cover;
+}
+
+.model_s{
+    text-align: center;
+    color: white;
+}
+
+.models_button{
+    display: flex;
+    margin-top: 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 1.5s;
+}
+
+
+.cybertruck{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg")no-repeat center/cover;
+}
+
+.cybertruck_c{
+    font-size: 30px;
+    text-align: center;
+}
+
+.cybertruck_button{
+    margin-top: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.tugma1{
+    background-color: rgba(7, 7, 7, 0.582);
+    color: white;
+    width: 280px;
+    height: 50px;
+    transition: 1s;
+    font-size: 18px;
+}
+
+.tugma2{
+    background-color: rgba(7, 7, 7, 0.582);
+    color: white;
+    width: 280px;
+    height: 50px;
+    margin-left: 25px;
+    transition: 1s;
+    font-size: 18px;
+}
+
+.tugma1:hover{
+    background-color: rgba(49, 49, 49, 0.582);
+    color: white;
+    transition: 1s;
+}
+
+.tugma2:hover{
+    background-color: rgba(49, 49, 49, 0.582);
+    color: white;
+    transition: 1s;
+}
+
+.solorpanel{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop")no-repeat center/cover;
+}
+
+.solor_p{
+    text-align: center;
+    color: white;
+}
+
+.solor_button{
+    display: flex;
+    margin-top: 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 1.5s;
+}
+
+.solorroof{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global")no-repeat center/cover;
+}
+
+.solor_r{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.solor_button{
+    display: flex;
+    margin-top: 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 1.5s;
+}
+
+.powerwall{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg")no-repeat center/cover;
+}
+
+.power_w{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.power_button{
+    display: flex;
+    margin-top: 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: 1.5s;
+}
+
+.accessories{
+    width: 100%;
+    height: 100vh;
+    background: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg")no-repeat center/cover;
+}
+
+.accessories_a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.accessories_button{
+    display: flex;
+    margin-top: 360px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    transition:1.5s ;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 1.5s;
+}
+
+
+.the_end{
+    background-color: black;
+    color: white;
+    height: 65vh;
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.write{
+    text-align: center;
+    width: 600px;
+    height: 50vh;
+}
